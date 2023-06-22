@@ -1,0 +1,408 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #74716b ;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #edd5a3;
+    padding: 5px;
+    color: #fff;
+    align-items: center;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #e7b446;
+  }
+  
+  .logo-container {
+    text-align: left;
+    margin-bottom: 5px;
+    max-width: 100px;
+  }
+  
+  .logo {
+    width: auto;
+    height: 50px;
+    margin-top: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 130%;
+  }
+  
+  .migselv {
+    width: auto;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 40px 0;
+    text-align: center;
+    max-width: 100%;
+    background-color: #FFFFFF;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Elephant';
+    font-size: 35px;
+    line-height: 1.6;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+  
+  .image-grid {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container {
+    text-align: center;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 2fr;
+  }
+  
+  .project-info {
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .subtitle {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Georgia Pro;
+  }
+  
+  .image-caption {
+    font-size: 14px;
+  }
+  
+  .mads,
+  .pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mads {
+    width: auto;
+    height: 250px;
+  }
+  
+  .lodret-streg {
+    width: 2px;
+    height: 400px;
+    background-color: rgb(215, 215, 215);
+    align-items: center;
+  }
+  
+  .pic {
+    width: auto;
+    height: 250px;
+  }
+  
+  .subtitle {
+    max-width: 100%;
+    align-content: center;
+  }
+  
+  .underportfolio {
+    align-content: center;
+    font-weight: bold;
+    font-size: 300%;
+    font-family: 'Onyx';
+    line-height: 1.6;
+  }
+  
+  .nikolaj {
+    width: auto;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .migognikolaj {
+    width: auto;
+    height: 350px;
+    margin-left: 250%;
+  }
+  
+  .nikolaj,
+  .migognikolaj {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+  }
+  
+  .dating1 {
+    width: auto;
+    height: 250px;
+  }
+  
+  .dating2 {
+    width: auto;
+    height: 250px;
+  }
+
+  .dating1,
+.dating2 {
+  width: auto;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+  
+.nikolajtitle {
+align-content: center;
+font-weight: bold;
+font-size: 300%;
+font-family: 'Onyx';
+line-height: 1.6;
+  }
+  
+.datingapps {
+align-content: center;
+font-weight: bold;
+font-size: 300%;
+font-family: 'Onyx';
+line-height: 1.6;
+  }
+  
+.dating {
+width: auto;
+height: 250px;
+align-content: center;
+  }
+  
+.pole {
+width: auto;
+height: 350px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+  }
+  
+.poleefter {
+width: auto;
+height: 350px;
+margin-left: 250%;
+  }
+  
+.pole,
+.poleefter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.polebilleder {
+  align-content: center;
+  font-weight: bold;
+  font-size: 300%;
+  font-family: 'Onyx';
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+.image-grid {
+  display: flex;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+
+  /* About Me Section */
+  #ommig {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #FFFFFF;
+  }
+  
+  .title-box {
+    background-color: #edd5a3;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: -40px;
+    height: 80px;
+    position: relative;
+    border: 2px solid #909090;
+  }
+  
+  .contact {
+    background-color: #edd5a3;
+  }
+
+  .top-image {
+    margin-bottom: 20px;
+  }
+  
+  .about-me {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pic-container {
+    margin-right: 20px;
+  }
+  
+  .me {
+    width: auto;
+    height: 500px;
+    border-radius: 50%;
+  }
+  
+  .centered-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .text-container {
+    text-align: left;
+  }
+  
+  /* Contact Section */
+  #kontakt {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #edd5a3;
+  }
+  
+  .kontaktmig {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .info li {
+    margin-bottom: 10px;
+  }
+  
+  .social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .social li {
+    margin-right: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .column1,
+  .column2 {
+    padding: 10px;
+    background-color: #e7e5de;
+  }
+  
+  .divider {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #999999;
+    color: #fff;
+  }
+  
